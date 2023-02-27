@@ -29,7 +29,10 @@ function sparTwoDeck(){
         .then(res => res.json())
         .then(data => {
             console.log(data)
+            // player 1 card
             document.querySelector("#player1").src = data.cards[0].image
+            // player 2 cards
+            document.querySelector("#player2").src = data.cards[1].image
         })
         .catch(err => {
             console.log(`error ${err}`)
