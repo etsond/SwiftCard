@@ -30,13 +30,15 @@ function sparTwoDeck(){
         .then(data => {
             console.log(data)
             // player 1 card
-            document.querySelector("#player1").src = data.cards[0].image
+            document.querySelector("#player1").src = Number(data.cards[0].image)
             // player 2 cards
-            document.querySelector("#player2").src = data.cards[1].image
+            document.querySelector("#player2").src = Number(data.cards[1].image)
 
+            // get the value from the api for the two 2 counts
             let valueOfPlayerOne = data.cards[0].value
             let valueOfPlayerTwo = data.cards[1].value
 
+            // checking for winner based on card value
             if(valueOfPlayerOne > valueOfPlayerTwo){
                 document.querySelector("h3").innerText = "Winner is Player1"
             }
