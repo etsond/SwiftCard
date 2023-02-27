@@ -33,6 +33,18 @@ function sparTwoDeck(){
             document.querySelector("#player1").src = data.cards[0].image
             // player 2 cards
             document.querySelector("#player2").src = data.cards[1].image
+
+            let valueOfPlayerOne = data.cards[0].value
+            let valueOfPlayerTwo = data.cards[1].value
+
+            if(valueOfPlayerOne > valueOfPlayerTwo){
+                document.querySelector("h3").innerText = "Winner is Player1"
+            }
+            else if(valueOfPlayerTwo > valueOfPlayerTwo){
+                document.querySelector("h3").innerText = "Winner is Player 2"
+            }else{
+                document.querySelector("h3").innerText = "Draw again"
+            }
         })
         .catch(err => {
             console.log(`error ${err}`)
