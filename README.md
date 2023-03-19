@@ -13,7 +13,7 @@ How to Play
 1.JavaScript
 2. HTML
 3. CSS
-4. Api
+4. https://www.deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1
 
 ## Installation
 Clone the repository: git clone https://github.com/etsond/speed.git
