@@ -10,7 +10,7 @@ How to Play
 5. The winner is display on the page.
 
 ### What I Used
-1.JavaScript
+1. JavaScript
 2. HTML
 3. CSS
 4. https://www.deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1
