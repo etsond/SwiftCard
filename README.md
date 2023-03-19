@@ -3,11 +3,11 @@ SwiftCard is a simple card game that compares two cards and displays the winning
 
 How to Play
 
-1. Click the "Play" button to start the game.
+1. Click the "Dare" button to start the game.
 2. Two cards will be displayed on the screen.
 3. The player with the higher card wins and gets a point.
 4. If there is a tie, the round is repeated.
-5. The winner is announced.
+5. The winner is display on the page.
 
 ### What I Used
 1.JavaScript
