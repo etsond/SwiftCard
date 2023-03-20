@@ -18,7 +18,7 @@ How to Play
 ## Installation
 Clone the repository:
 ```ruby
-git clone https://github.com/etsond/speed.git
+git clone https://github.com/etsond/SwiftCard
 ```
 > Open the index.html file in your web browser.
 
