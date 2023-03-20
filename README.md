@@ -16,7 +16,9 @@ How to Play
 4. https://www.deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1
 
 ## Installation
-Clone the repository: git clone https://github.com/etsond/speed.git
-Open the index.html file in your web browser.
+Clone the repository:
+```ruby
+git clone https://github.com/etsond/speed.git
+```
+> Open the index.html file in your web browser.
 
-Credits
