@@ -1,22 +1,84 @@
-/******************************************
-/* CSS
-/*******************************************/
-
-/* Box Model Hack */
-*{
-  box-sizing: border-box;
+body {
+  background-color: #53B17B;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/******************************************
-/* LAYOUT
-/*******************************************/
-img{
-  display: block;
+.container {
+  max-width: 800px;
   margin: 0 auto;
-  height: 200px;
+  padding: 20px;
 }
 
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 20px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
 
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  color: #53B17B;
+  cursor: pointer;
+  box-shadow: 2px 2px #000;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #53B17B;
+  color: #fff;
+  box-shadow: none;
+}
+
+.players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.players>div {
+  display: inline-block;
+  text-align: center;
+  margin: 0 20px;
+  box-shadow: 2px 2px #000;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.players img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .players {
+    flex-direction: column;
+  }
+
+  .players>div {
+    margin: 20px 0;
+  }
+
+  .players img {
+    max-width: 80%;
+  }
+}
+
+.winner {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 50px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
